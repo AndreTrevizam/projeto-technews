@@ -34,8 +34,24 @@ a:hover{
   transition: 0.2s;
 }
 
+.container{
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
 body{
   font: var(--text);
   background-color: var(--bg-color);
   color: var(--text-primary-color);
+}
+
+/* utility first  */
+
+.grid{
+  display: grid;
+}
+
+.grid-flow-col{
+  grid-auto-flow: column;
 }
