@@ -1,3 +1,8 @@
+section header{
+  border-top: 1px solid var(--stroke-color);
+  padding-block: 12px 24px;
+}
+
 #featured {
   img {
       height: 100%;
@@ -34,5 +39,16 @@
           margin-top: 8px;
         }
       }
+  }
+}
+
+#weekly{
+
+  &>div {
+    grid-template-columns: repeat(4, 292px);
+  }
+
+  img{
+    height: 160px;
   }
 }
